@@ -1,0 +1,33 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Dmitriy Sprut",
+      "isAvailableForSearching": true,
+      "email": "dmitriy_surut@gmail.com",
+      "hashedPassword": "test",
+
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "name": "xKek.com",
+      "captainId": 1,
+      "description": "Supreme team searching for UX/UI engineer"
+    }
+  ],
+  "team_user": [
+    {
+      "id": 1,
+      "teamId": 1,
+      "userId": 1
+    }
+  ],
+  "hackathon": [
+    {
+      "id": 1,
+      "name": "MSKHack"
+    }
+  ]
+}

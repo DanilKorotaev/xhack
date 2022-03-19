@@ -1,0 +1,86 @@
+{
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/quotes": ["warn", "double", { "avoidEscape": true }],
+    "@typescript-eslint/no-unused-vars": "warn",
+    "max-classes-per-file": "warn",
+    "no-underscore-dangle": "warn",
+    "class-methods-use-this": "warn",
+    "arrow-body-style": "warn",
+    "no-return-await": "warn",
+    "import/no-cycle": "off",
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "no-unused-expressions": [
+      "error",
+      {
+        "allowShortCircuit": true
+      }
+    ],
+    "no-plusplus": [2, { "allowForLoopAfterthoughts": true }],
+    "max-len": [
+      "warn",
+      {
+        "code": 140,
+        "ignoreStrings": true
+      }
+    ],
+    "max-lines": [
+      "error",
+      700
+    ],
+    "max-depth": [
+      "error",
+      4
+    ],
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unused-expressions": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "no-console": "off",
+    "import/no-unresolved": "off",
+    "no-nested-ternary": "off",
+    "import/extensions": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "import/no-extraneous-dependencies": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "react/prop-types": "off",
+    "react/jsx-filename-extension": 0,
+    "import/no-deprecated": "warn",
+    "react/jsx-props-no-spreading": [
+      "error",
+      {
+        "html": "enforce",
+        "custom": "ignore",
+        "exceptions": ["input"]
+      }
+    ],
+    "no-restricted-imports": [
+      "error",
+      {
+        "paths": [
+
+        ]
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "setupTests.ts",
+        "logger.ts",
+        "stories.tsx"
+      ],
+      "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "import/prefer-default-export": "off",
+        "no-restricted-imports": "off"
+      }
+    }
+  ]
+}

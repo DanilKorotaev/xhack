@@ -1,0 +1,1 @@
+insert into team (name, description, "captainId") values ('supreme', 'adidas', 1);

@@ -1,0 +1,1 @@
+insert into hackathon (name, description) values ('Hackathon 1', 'Supreme hackathon');

@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "xhack-backup",
+      "script": "npm",
+      "args" : "start"
+    }
+  ]
+}

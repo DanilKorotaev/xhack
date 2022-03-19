@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "xhack-nest-backend",
+      "script": "npm",
+      "args" : "start"
+    }
+  ]
+}
